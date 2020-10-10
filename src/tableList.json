@@ -1,0 +1,68 @@
+{
+  "Audio": {
+    "Sound_Classification": [
+      {
+        "Container": "MAX_AUDIO_CLASSIFIER",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      },
+      {
+        "Container": "MAX_AUDIO_CLASSIFIER 2",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      }
+    ],
+    "Audio_Fingerprinting": [
+      {
+        "Container": "DEJAVU",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      }
+    ],
+    "Speech_To_Text": [
+      {
+        "Container": "JASPER",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      },
+      {
+        "Container": "QUARTZNET",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      },
+      {
+        "Container": "DEEP_SPEECH",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      }
+    ]
+  },
+  "Entity": {
+    "Entity_Extraction": [
+      {
+        "Container": "SPACY_LARGE",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      },
+      {
+        "Container": "FLAIR",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      }
+    ]
+  },
+  "Search": {
+    "Text_Search": [
+      {
+        "Container": "B.E.R.T",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      },
+      {
+        "Container": "ELASTIC_FUZZY_SEARCH",
+        "Processing_File": "No File",
+        "Status": "Not Started"
+      }
+    ]
+  }
+}
