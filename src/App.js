@@ -51,5 +51,4 @@ function App() {
 }
 
 export default App;
-// _.map(lastMessage.data, (val, key) => {
-//   return <TableParent key={key} Title={key} SectionData={val} />
+
