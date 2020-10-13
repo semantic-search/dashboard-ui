@@ -9,7 +9,7 @@ const TableSection = ({ Title, TData }) => {
           paddingLeft: "2rem",
         }}
       >
-        {Title.split("_").join(" ")}
+        {Title}
       </div>
 
       <div
@@ -28,7 +28,10 @@ const TableSection = ({ Title, TData }) => {
           <tbody>
             {TData.map((val, idx) => {
               return (
-                <tr key={idx}>
+                <tr
+                  key={idx}
+                  className={val["Status"] === "Complete" && `Complete`}
+                >
                   <td>{val["Container"]}</td>
                   <td>{val["Processing_File"]}</td>
                   <td>{val["Status"]}</td>
@@ -43,3 +46,4 @@ const TableSection = ({ Title, TData }) => {
 };
 
 export default TableSection;
+// Complete

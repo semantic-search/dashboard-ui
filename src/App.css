@@ -5,6 +5,28 @@
   background-color: #404755;
 }
 
+.StatusBtnWrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.StatusBtn {
+  color: gray;
+  margin-right: 1rem;
+  font-size: smaller;
+  display: flex;
+  padding: 2px 6px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #909190;
+}
+
+.Green {
+  color: rgb(141, 233, 141);
+  border-color: #3e976b;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,6 +57,11 @@ table {
 /* tr:nth-of-type(odd) {
   background: #eee;
 } */
+
+.Complete {
+  color: #58d696;
+  background-color: rgb(72 73 81 / 1);
+}
 
 th {
   background: #404755;
